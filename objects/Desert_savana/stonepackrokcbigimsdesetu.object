@@ -1,0 +1,36 @@
+{
+  "objectName" : "stonepackrokcbigimsdesetu",
+  "tags" : ["nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "nature",
+
+  "description" : "A Rock.",
+  "shortdescription" : "Rock",
+  "race" : "human",
+
+  "apexDescription" : "A Rock.",
+  "avianDescription" : "A Rock.",
+  "floranDescription" : "A Rock.",
+  "glitchDescription" : "Statement. A Rock.",
+  "humanDescription" : "A Rock.",
+  "hylotlDescription" : "A Rock.",
+
+  "inventoryIcon" : "stonepackrokcbigimsdesetu.png",
+  "orientations" : [
+    {
+      "dualImage" : "stonepackrokcbigimsdesetu.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "cobblestonematerial", 5, { } ] ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "smmalfernpackerbush1purplesnow",
+  "colonyTags" : ["Nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
+  "rarity" : "Common",
+  "category" : "Nature",
+
+  "description" : "A Fern.",
+  "shortdescription" : "Fern",
+  "race" : "human",
+
+  "apexDescription" : "A Fern.",
+  "avianDescription" : "A Fern.",
+  "floranDescription" : "A Fern.",
+  "glitchDescription" : "Statement. A Fern.",
+  "humanDescription" : "A Fern.",
+  "hylotlDescription" : "A Fern.",
+
+  "inventoryIcon" : "smmalfernpackerbush1purplesnow.png",
+  "orientations" : [
+    {
+      "dualImage" : "smmalfernpackerbush1purplesnow.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "plantfibre", 3, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

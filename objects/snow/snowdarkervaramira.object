@@ -1,0 +1,41 @@
+{
+  "objectName" : "snowdarkervaramira",
+  "colonyTags" : ["Nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
+  "rarity" : "Common",
+  "category" : "Nature",
+
+  "description" : "A Fern.",
+  "shortdescription" : "Fern",
+  "race" : "human",
+
+  "apexDescription" : "A Fern.",
+  "avianDescription" : "A Fern.",
+  "floranDescription" : "A Fern.",
+  "glitchDescription" : "Statement. A Fern.",
+  "humanDescription" : "A Fern.",
+  "hylotlDescription" : "A Fern.",
+
+  "inventoryIcon" : "snowdarkervaramira.png",
+  "orientations" : [
+    {
+      "dualImage" : "snowdarkervaramira.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "plantfibre", 4, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

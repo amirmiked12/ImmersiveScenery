@@ -1,0 +1,41 @@
+{
+  "objectName" : "neduoblebigekcepoleim",
+  "tags" : ["decorative"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/wood_break1.ogg", "/sfx/objects/wood_break2.ogg", "/sfx/objects/wood_break3.ogg", "/sfx/objects/wood_break4.ogg", "/sfx/objects/wood_break5.ogg", "/sfx/objects/wood_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "woodshard" } ],
+  "rarity" : "Common",
+  "category" : "decorative",
+
+  "description" : "A wooden utility pole.",
+  "shortdescription" : "Wooden Utility Pole",
+  "health" : 1000,
+  "race" : "human",
+
+  "apexDescription" : "A wooden utility pole, it seems mostly intact.",
+  "avianDescription" : "A wooden pole, for what purpose does it serve?",
+  "floranDescription" : "Wooden pole, maybe good for climbing?",
+  "glitchDescription" : "Confident. A wooden utility pole.",
+  "humanDescription" : "A wooden utility pole, these used to be linked with wires to carry signals.",
+  "hylotlDescription" : "A wooden pole of some sort. It appears to have had a use once.",
+  "novakidDescription" : "Wonder what this could've been used for?",
+
+  "inventoryIcon" : "neduoblebigekcepoleim.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neduoblebigekcepoleim.png" } ],
+      "imagePosition" : [-16,0],
+
+      "direction" : "right",
+      "flipImages" : false,
+
+      "frames" : 1,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  }

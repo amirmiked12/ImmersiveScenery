@@ -1,0 +1,40 @@
+{
+  "objectName" : "snowsignpontwaynew",
+  "tags" : ["decorative"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/wood_break1.ogg", "/sfx/objects/wood_break2.ogg", "/sfx/objects/wood_break3.ogg", "/sfx/objects/wood_break4.ogg", "/sfx/objects/wood_break5.ogg", "/sfx/objects/wood_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "woodshard" } ],
+  "rarity" : "Common",
+  "category" : "guide",
+
+  "description" : "A Sign.",
+  "shortdescription" : "Sign",
+  "race" : "human",
+  "health" : 1000,
+
+  "apexDescription" : "A Sign.",
+  "avianDescription" : "A Sign.",
+  "floranDescription" : "A Sign.",
+  "glitchDescription" : "Statement. A Sign.",
+  "humanDescription" : "A Sign.",
+  "hylotlDescription" : "A Sign.",
+
+  "inventoryIcon" : "snowsignpontwaynew.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "snowsignpontwaynew.png" } ],
+      "imagePosition" : [-16,0],
+
+      "direction" : "right",
+      "flipImages" : false,
+
+      "frames" : 1,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  }

@@ -1,0 +1,39 @@
+{
+  "objectName" : "snowstone4ims",
+  "tags" : ["nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "greystoneshard" } ],
+  "rarity" : "Common",
+
+  "description" : "A Rock.",
+  "shortdescription" : "Rock",
+  "race" : "human",
+
+  "apexDescription" : "A Rock.",
+  "avianDescription" : "A Rock.",
+  "floranDescription" : "A Rock.",
+  "glitchDescription" : "Statement. A Rock.",
+  "humanDescription" : "A Rock.",
+  "hylotlDescription" : "A Rock.",
+
+  "inventoryIcon" : "snowstone4ims.png",
+  "orientations" : [
+    {
+      "dualImage" : "snowstone4ims.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "cobblestonematerial", 4, { } ] ]
+  ]
+}

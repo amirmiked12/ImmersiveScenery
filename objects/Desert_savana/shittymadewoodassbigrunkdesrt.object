@@ -1,0 +1,37 @@
+{
+  "objectName" : "shittymadewoodassbigrunkdesrt",
+  "tags" : ["nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "nature",
+
+  "description" : "A Trunk.",
+  "shortdescription" : "Trunk",
+  "race" : "human",
+
+  "apexDescription" : "A Trunk.",
+  "avianDescription" : "A Trunk.",
+  "floranDescription" : "A Trunk.",
+  "glitchDescription" : "Statement. A Trunk.",
+  "humanDescription" : "A Trunk.",
+  "hylotlDescription" : "A Trunk.",
+
+  "inventoryIcon" : "shittymadewoodassbigrunkdesrt.png",
+  "orientations" : [
+    {
+      "dualImage" : "shittymadewoodassbigrunkdesrt.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "logblock", 10, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

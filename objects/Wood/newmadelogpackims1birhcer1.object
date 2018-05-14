@@ -1,0 +1,41 @@
+{
+  "objectName" : "newmadelogpackims1birhcer1",
+  "tags" : ["nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/wood_break1.ogg", "/sfx/objects/wood_break2.ogg", "/sfx/objects/wood_break3.ogg", "/sfx/objects/wood_break4.ogg", "/sfx/objects/wood_break5.ogg", "/sfx/objects/wood_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "woodshard" } ],
+  "rarity" : "Common",
+  "category" : "nature",
+
+  "description" : "A log.",
+  "shortdescription" : "Log",
+  "race" : "human",
+
+  "apexDescription" : "A log.",
+  "avianDescription" : "A log.",
+  "floranDescription" : "A log.",
+  "glitchDescription" : "Statement. A log.",
+  "humanDescription" : "A log.",
+  "hylotlDescription" : "A log.",
+
+  "inventoryIcon" : "newmadelogpackims1birhcer1.png",
+  "orientations" : [
+    {
+      "dualImage" : "newmadelogpackims1birhcer1.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "logblock", 1, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

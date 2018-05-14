@@ -1,0 +1,41 @@
+{
+  "objectName" : "newcavedbedwaterwellims",
+  "tags" : ["decorative"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "greystoneshard" } ],
+  "rarity" : "Common",
+  "category" : "decorative",
+
+  "description" : "I sure could use some water...",
+  "shortdescription" : "Well",
+  "health" : 1000,
+  "race" : "glitch",
+
+  "apexDescription" : "An attractive well with bucket attached. It looks well-used.",
+  "avianDescription" : "The handle looks like it raises and lowers the bucket.",
+  "floranDescription" : "Metalmen build little houssse for bucket. Metalmen love bucket.",
+  "glitchDescription" : "Dissatisfied. Villagers use wells like this for all of their drinking water. Often the water is dirty or polluted.",
+  "humanDescription" : "An adorable little well.",
+  "hylotlDescription" : "It is difficult for me to grasp a world in which water must be dragged forth in buckets.",
+  "novakidDescription" : "A classic way to get water, better make sure I don't fall down it.",
+
+  "inventoryIcon" : "newcavedbedwaterwellims.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "newcavedbedwaterwellims.png" } ],
+      "imagePosition" : [-16,0],
+
+      "direction" : "right",
+      "flipImages" : false,
+
+      "frames" : 1,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  }

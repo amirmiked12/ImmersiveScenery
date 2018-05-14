@@ -1,0 +1,41 @@
+{
+  "objectName" : "smallsaplingvarion2snoer",
+  "colonyTags" : ["Nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
+  "rarity" : "Common",
+  "category" : "Nature",
+
+  "description" : "A Sapling.",
+  "shortdescription" : "Sapling",
+  "race" : "human",
+
+  "apexDescription" : "A Sapling.",
+  "avianDescription" : "A Sapling.",
+  "floranDescription" : "A Sapling.",
+  "glitchDescription" : "Statement. A Sapling.",
+  "humanDescription" : "A Sapling.",
+  "hylotlDescription" : "A Sapling.",
+
+  "inventoryIcon" : "smallsaplingvarion2snoer.png",
+  "orientations" : [
+    {
+      "dualImage" : "smallsaplingvarion2snoer.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "logblock", 1, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

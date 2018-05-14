@@ -1,0 +1,41 @@
+{
+  "objectName" : "newanimalstonedesertims",
+  "colonyTags" : ["Nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "boneshard" } ],
+  "rarity" : "Common",
+  "category" : "Nature",
+
+  "description" : "A Bone.",
+  "shortdescription" : "Bone",
+  "race" : "human",
+
+  "apexDescription" : "A Bone.",
+  "avianDescription" : "A Bone.",
+  "floranDescription" : "A Bone.",
+  "glitchDescription" : "Bone. A Bone.",
+  "humanDescription" : "A Bone.",
+  "hylotlDescription" : "A Bone.",
+
+  "inventoryIcon" : "newanimalstonedesertims.png",
+  "orientations" : [
+    {
+      "dualImage" : "newanimalstonedesertims.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "bone", 4, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}

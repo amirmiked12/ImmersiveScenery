@@ -1,0 +1,41 @@
+{
+  "objectName" : "newdetailedwgwood3snoerw",
+  "colonyTags" : ["nature"],
+  "printable" : false,
+  "smashable" : false,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
+  "rarity" : "Common",
+  "category" : "nature",
+
+  "description" : "A grass.",
+  "shortdescription" : "grass",
+  "race" : "human",
+
+  "apexDescription" : "A grass.",
+  "avianDescription" : "A grass.",
+  "floranDescription" : "A grass.",
+  "glitchDescription" : "Statement. A grass.",
+  "humanDescription" : "A grass.",
+  "hylotlDescription" : "A grass.",
+
+  "inventoryIcon" : "newdetailedwgwood3snoerw.png",
+  "orientations" : [
+    {
+      "dualImage" : "newdetailedwgwood3snoerw.png:<color>",
+      "imagePosition" : [-16,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashDropOptions" : [
+    [ [ "plantfibre", 1, { } ] ]
+  ],
+    "maxImmersion" : 0.125
+}
